@@ -50,6 +50,42 @@
           </button>
         </nav>
       </header>
+
+      <!-- home section -->
+      <main>
+        <section class="home">
+          <picture>
+            <source
+              media="max-width: 768px"
+              srcset="./images/mobile/image-header.jpg"
+            />
+            <source
+              media="min-width: 769px"
+              srcset="./images/desktop/image-header.jpg"
+            />
+
+            <img
+              src="./images/mobile/image-header.jpg"
+              alt="home banner image"
+              class="home-banner"
+              loading="lazy"
+            />
+          </picture>
+
+          <div class="home-absolute-content">
+            <h1 class="main-heading">We are creative</h1>
+
+            <a href="#about">
+              <img
+                src="./images/icon-arrow-down.svg"
+                alt="icon arrow-down"
+                class="arrow-down"
+                loading="lazy"
+              />
+            </a>
+          </div>
+        </section>
+      </main>
     </div>
 
     <!-- script section -->
